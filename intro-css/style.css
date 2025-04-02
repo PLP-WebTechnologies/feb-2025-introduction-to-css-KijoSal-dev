@@ -1,0 +1,103 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header, footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+/* ID Selector */
+#hero {
+    background-color: #e0e0e0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /*Added to space the content and image*/
+}
+
+/* Class Selector */
+.hero-content {
+    flex: 1; /*Takes up available space*/
+}
+
+.hero-content h2 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.content-section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+}
+
+.content-section h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.video-container {
+    width: 100%; /*Make the container take up the full width*/
+    max-width: 640px; /*Limit the maximum width*/
+    margin: 0 auto; /*Centre the container horizontally*/
+}
+
+#my-video {
+    width: 100%; /* Make the video fill the container*/
+    height: auto; /*Maintain aspect ratio*/
+}
+
+/* Element Selector */
+img {
+    max-width: 300px;
+    border: 5px solid #555;
+    padding: 5px;
+    margin-left: 20px; /*Added to push it away from the content*/
+}
+
+footer {
+  margin-top: 20px;
+  padding: 10px;
+  text-align: center;
+  background-color: #333;
+  color: white;
+}
